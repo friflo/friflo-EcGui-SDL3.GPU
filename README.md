@@ -6,7 +6,7 @@ Minimal **SDL3 GPU** setup to showcase use and integration of [**friflo EcGui**]
 
 Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.OpenGL.
 
-![friflo-EcGui-MonoGame](https://github.com/user-attachments/assets/5150eafe-fad8-4502-88c9-7ceb9b60cbc6)
+![friflo-EcGui-SDL3](https://github.com/user-attachments/assets/eb6d5319-0e3d-41a1-a89e-719586e0093f)
 
 
 ## Goals
