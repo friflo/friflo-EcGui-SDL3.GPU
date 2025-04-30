@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcGui-SDL3.GPU", "EcGui-SDL3.GPU.csproj", "{3350C2B1-FA1C-EB91-4F2B-2AEF4DC65828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3350C2B1-FA1C-EB91-4F2B-2AEF4DC65828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3350C2B1-FA1C-EB91-4F2B-2AEF4DC65828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3350C2B1-FA1C-EB91-4F2B-2AEF4DC65828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3350C2B1-FA1C-EB91-4F2B-2AEF4DC65828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41561B6D-9D2F-4BB5-AA4D-66EA6DAD3DA9}
+	EndGlobalSection
+EndGlobal

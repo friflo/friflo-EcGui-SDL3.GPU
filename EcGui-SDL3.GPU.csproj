@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RollForward>Major</RollForward>
+        <PublishReadyToRun>false</PublishReadyToRun>
+        <TieredCompilation>false</TieredCompilation>
+        <RootNamespace>SDL3.Lab</RootNamespace>
+        <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="ppy.SDL3-CS" Version="2025.220.0" />
+        <PackageReference Include="Friflo.EcGui" Version="0.9.0" />
+    </ItemGroup>
+
+    <!-- Add font 'Inter' for ImGui -->
+    <ItemGroup>
+        <Content Include="Content\Inter-Regular.ttf">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+</Project>
