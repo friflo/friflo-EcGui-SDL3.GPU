@@ -4,7 +4,8 @@ Minimal **SDL3 GPU** setup to showcase use and integration of [**friflo EcGui**]
 
 **friflo EcGui** can be integrated in every environment that support [**ImGui.NET**](https://github.com/ImGuiNET/ImGui.NET).
 
-Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.OpenGL.
+Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.OpenGL.  
+See: [EcGui Demos](https://github.com/friflo?tab=repositories&q=ecgui&type=public&language=&sort=name)
 
 ![friflo-EcGui-SDL3](https://github.com/user-attachments/assets/eb6d5319-0e3d-41a1-a89e-719586e0093f)
 
