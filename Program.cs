@@ -61,8 +61,8 @@ static class Program
             
             window.CreateRenderer(); // was originally called in window.Create()
             // --- ImGui integration (end)
-            DemoECS.CreateEntityStore();    // set up your ECS here
             DemoECS.CustomizeEcGui();       // customize UI
+            DemoECS.CreateEntityStore();    // set up your ECS here
 
             printWindows();
 
