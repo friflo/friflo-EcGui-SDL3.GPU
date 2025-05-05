@@ -11,7 +11,7 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="ppy.SDL3-CS" Version="2025.220.0" />
-        <PackageReference Include="Friflo.EcGui" Version="0.9.0" />
+        <PackageReference Include="Friflo.EcGui" Version="0.9.1" />
     </ItemGroup>
 
     <!-- Add font 'Inter' for ImGui -->

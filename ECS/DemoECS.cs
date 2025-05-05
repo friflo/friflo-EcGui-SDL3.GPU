@@ -25,12 +25,12 @@ internal class NameSystem : QuerySystem<EntityName>
     protected override void OnUpdate() { }
 }
 
-internal class SubSystem1 : QuerySystem<EntityLink>
+internal class SubSystem1 : QuerySystem<DragInt, Animated>
 {
     protected override void OnUpdate() { }
 }
 
-internal class SubSystem2 : QuerySystem<DragInt>
+internal class SubSystem2 : QuerySystem<Position, DragInt, Animated>
 {
     protected override void OnUpdate() { }
 }
