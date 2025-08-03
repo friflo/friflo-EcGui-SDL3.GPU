@@ -103,7 +103,7 @@ public sealed unsafe class MyWindow : IDisposable
     
     public void CreateRenderer()
     {
-        renderer = SDL_CreateRenderer(sdlWindowHandle, (Utf8String)null);
+        renderer = SDL_CreateRenderer(sdlWindowHandle, "main");
     }
 
     private void handleEvent(SDL_Event e)
@@ -244,7 +244,7 @@ public sealed unsafe class MyWindow : IDisposable
             // SDL_SetRenderDrawColorFloat(renderer, SDL_sinf(frame) / 2 + 0.5f, SDL_cosf(frame) / 2 + 0.5f, 0.3f, 1.0f);
             // SDL_RenderClear(renderer);
             
-            SDL_RenderPresent(renderer); // cause flickering on macOS. TODO Check why
+            SDL_RenderPresent(renderer); 
 
             frame += 0.015f;
 
